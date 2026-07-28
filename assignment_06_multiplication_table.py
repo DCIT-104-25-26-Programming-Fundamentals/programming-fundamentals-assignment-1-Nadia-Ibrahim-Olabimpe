@@ -56,7 +56,7 @@
 # =============================================================================
 
 def single_table(number):
-    print(f"\nMultiplication Table for {number}:")
+    print(f"Multiplication Table for {number}:")
 
     for i in range(1, 13):
         print(f"{number} x {i} = {number * i}")
@@ -64,7 +64,7 @@ def single_table(number):
 
 def multiple_tables(n):
     for table in range(1, n + 1):
-        print(f"\nMultiplication Table for {table}:")
+        print(f"Multiplication Table for {table}:")
 
         for i in range(1, 13):
             print(f"{table} x {i} = {table * i}")
@@ -84,7 +84,7 @@ def main():
     single_table(number)
 
     # Part B
-    n = int(input("\nEnter a number to print tables from 1 to N: "))
+    n = int(input("Enter a number to print tables from 1 to N: "))
 
     if n <= 0:
         print("Error: Number must be a positive integer.")

@@ -97,7 +97,7 @@ def main():
     print_fibonacci(n)
 
     # Part B
-    number = int(input("\nEnter a number to check: "))
+    number = int(input("Enter a number to check: "))
     check_fibonacci(number)
 
 
